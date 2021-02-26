@@ -8,8 +8,8 @@ LANG=C
 MOCKS+=amazonlinux-2-x86_64
 
 # Additional mock configs to tourh after insallation
-#MOCKCFGS+=$(MOCKS)
-MOCKCFGS+=samba4repo-amz2-x86_64
+MOCKCFGS+=$(MOCKS)
+#MOCKCFGS+=samba4repo-amz2-x86_64
 
 #REPOBASEDIR=/var/www/linux/samba4repo
 REPOBASEDIR:=`/bin/pwd`/../samba4repo
